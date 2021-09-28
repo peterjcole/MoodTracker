@@ -83,7 +83,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 30,
-    marginBottom: 5,
   },
   selectedMoodItem: {
     borderWidth: 2,
@@ -92,11 +91,13 @@ const styles = StyleSheet.create({
   },
   descriptionText: {
     color: theme.colorPurple,
-    fontWeight: 'bold',
+    fontFamily: theme.fontFamilyBold,
     fontSize: 10,
     textAlign: 'center',
   },
   container: {
+    height: 250,
+    justifyContent: 'space-between',
     borderWidth: 2,
     borderColor: theme.colorPurple,
     margin: 10,
@@ -106,23 +107,21 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 20,
-    fontWeight: 'bold',
     letterSpacing: 1,
     textAlign: 'center',
-    marginBottom: 20,
+    fontFamily: theme.fontFamilyBold,
   },
   button: {
     backgroundColor: theme.colorPurple,
     width: 150,
     borderRadius: 20,
-    marginTop: 20,
     alignSelf: 'center',
     padding: 10,
   },
   buttonText: {
     color: theme.colorWhite,
+    fontFamily: theme.fontFamilyBold,
     textAlign: 'center',
-    fontWeight: 'bold',
   },
   image: {
     alignSelf: 'center',

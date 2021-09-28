@@ -24,6 +24,9 @@ export const BottomTabsNavigator: React.FC = () => {
         },
         tabBarActiveTintColor: theme.colorBlue,
         tabBarInactiveTintColor: theme.colorGrey,
+        headerTitleStyle: {
+          fontFamily: theme.fontFamilyRegular,
+        },
         tabBarShowLabel: false,
       })}>
       <BottomTabs.Screen
