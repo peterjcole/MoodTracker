@@ -10,7 +10,6 @@ import format from 'date-fns/format';
 import { MoodOptionWithTimestamp } from '../types';
 import { theme } from '../theme';
 import { useAppContext } from '../App.provider';
-import { PanGestureHandler } from 'react-native-gesture-handler';
 
 type MoodItemRowProps = {
   item: MoodOptionWithTimestamp;
